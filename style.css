@@ -12,7 +12,7 @@
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-image: url("a.jpg");
+    background-image: url("./img/a.jpg");
     background-position: center;
     background-size: cover;
     font-size: 90px;
