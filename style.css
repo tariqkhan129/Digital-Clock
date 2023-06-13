@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding-top: 80px;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("a.jpg");
+    background-position: center;
+    background-size: cover;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+#time {
+    padding: 15px;
+    margin-top: 50px;
+    background-color: #767878;
+    border: 1px solid;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+
+/* ............................................................. */
+
+@media only screen and (max-width: 600px) {
+    #container {
+        font-size: 40px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+}
